@@ -1,0 +1,14 @@
+POST http://localhost:3000/question/create-question
+Content-Type: application/json
+
+{"question": {"id": "c",
+      "type": "number",
+      "text": "Please enter your salary"
+      }
+}
+
+###
+POST http://localhost:3000/form/create-form
+Content-Type: application/json
+
+{"questions": [{"questionID": "6599b3378431e8a4ec57fd63"}]}

@@ -1,0 +1,31 @@
+.item-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+}
+
+.item-card:hover {
+  transform: scale(1.1); /* Scale up the card on hover */
+}
+
+.item-image {
+  width: 30px;
+  height: 30px; /* Maintain aspect ratio */
+
+}
+
+.item-text {
+    margin-top: 12px;
+    margin-bottom: 0;
+    text-align: center;
+}

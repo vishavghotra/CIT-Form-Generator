@@ -1,0 +1,99 @@
+.item-editor-with-panel {
+  display: flex;
+  flex: 1 1 80%;
+}
+
+.item-editor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: #bdcad9;
+  background-image: linear-gradient(315deg, #bdcad9 0%, #e1dada 74%);
+}
+
+.panel-present {
+  flex: 0 1 80%;
+}
+
+.panel-absent {
+  flex: 1;
+}
+
+.ai-box {
+  width: 70%;
+  margin-top: 20px;
+  display: inline-block;
+  position: relative;
+}
+
+.ai-generate-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.ai-text-field {
+  width: 100%;
+}
+
+.flex-horizontal {
+  width: 70%;
+  display: flex;
+}
+
+.item-container {
+  width: 100%;
+  min-height: 550px;
+  height: fit-content;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.button-press {
+  width: 100px;
+  height: 100px;
+}
+
+.spinner-container {
+  display: none;
+  text-align: center;
+}
+
+.spinner {
+  border: 5px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #007bff; /* Change the spinner color */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite; /* Apply spin animation */
+}
+
+.loading-text {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.form-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

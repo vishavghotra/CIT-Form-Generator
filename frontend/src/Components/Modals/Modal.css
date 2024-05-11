@@ -1,0 +1,108 @@
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.modal-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 850px;
+  min-width: 300px;
+}
+
+.options-row {
+  display: flex;
+  gap: 10px;
+  width: 700px;
+  flex-wrap: wrap;
+}
+
+.validation-row {
+  width: 610px;
+}
+
+.option-question {
+  width: 170px;
+  height: 25px;
+}
+
+.option-operator {
+  width: 80px;
+  height: 25px;
+}
+
+.option-bracket {
+  width: 30px;
+  height: 25px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+}
+
+.calculation-area {
+  display: flex;
+  gap: 10px;
+}
+
+.background-white {
+  background-color: white;
+}
+
+.value-title {
+  height: 25px;
+}
+
+.option-input {
+  border: none;
+}
+
+.option-button {
+  border: none;
+  height: 25px;
+  width: 25px;
+}
+
+.email-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.email-container-row {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+}
+
+.email-input {
+  width: 80%;
+}
+
+

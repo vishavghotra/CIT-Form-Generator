@@ -1,0 +1,56 @@
+.question-container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.question-container:hover {
+  border: 2px solid blue;
+}
+
+.vertical-positions {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.horizontal-positions {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.adress-country {
+  width: 50%;
+  align-self: center;
+}
+
+.question-and-input {
+  flex: 1;
+}
+
+.input-box {
+  outline: none;
+  height: 30px;
+  font-size: 16px;
+  flex: 1;
+}
+
+.icon-style {
+  height: 20px;
+  width: auto;
+}
+
+.borderless-box {
+  background-color: white;
+  border: none;
+  flex: 1;
+}
+
+.question-dragged {
+  border: 2px solid green;
+}
