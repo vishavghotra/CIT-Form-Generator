@@ -5,7 +5,6 @@
 This platform enables users to create forms through a drag-and-drop interface. Setting it apart from conventional form generators, it supports exporting to platforms like Confluence that lack direct HTML integration. Additionally, users can use Artificial Intelligence to generate questions based on form descriptions with the help of OpenAI API. The platform also offers a user-friendly interface for designing calculation and validation formulas involving multiple questions.
 
 ### Features
-
 - **Drag-and-drop interface**: Easily create form elements by dragging and dropping them onto the canvas.
 - **Customize questions**: Add properties like placeholder and default value to the dragged questions.
 - **Create formulas**: Easily create complex calculation and validation formulas involving multiple questions using drop-down lists.
@@ -30,5 +29,5 @@ This platform enables users to create forms through a drag-and-drop interface. S
 6. Open a web browser and navigate to http://localhost:3000 to use the application.
 
 ### Usage
-
 The platform is also available at https://formbuilder.ots.cit.tum.de. Currently, it is only accessible for TUM employees and students using the OTS VPN: https://vpn.rbg.tum.de/. To get started, please have a look at the [user guide](./userguide.pdf).
+
